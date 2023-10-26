@@ -1,0 +1,78 @@
+
+
+.fila {
+    margin-left: 300px;
+}
+
+
+
+/*Footer*/
+
+.contenedor {
+
+    border: rgb(39, 2, 39);
+
+    margin: 50px;
+
+    padding: 50px;
+}
+
+/* Cuerpo */
+
+body {
+    background-color: rgb(131, 110, 151);
+
+}
+
+/* Navegador */
+
+.padreFlex {
+    background-color: rgb(41, 3, 46);
+    height: 20px;
+    margin: auto;
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: column-nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 50px;
+    
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+li, a {
+    color: white;
+    font-size: 10px;
+    font-weight: 500px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/* Imagenes */
+
+.logo {
+    width: 190px;
+    cursor: pointer;
+}
+
+.whats {
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+}
